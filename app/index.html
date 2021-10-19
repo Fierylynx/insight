@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" href="images/icons/web-icon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body">
+
+  <header class="header">
+    <div class="container">
+
+      <div class="burger">
+        <button class="burger__button">
+          <svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 26H30M2 2H30H2ZM2 14H30H2Z" stroke="white" stroke-width="4" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="menu-aside__bg">
+      <div class="container">
+        <aside class="menu-aside">
+          <div class="menu-aside__wrapper">
+            <div class="menu-aside__top">
+              <h2 class="menu-aside__title">
+                insight project
+              </h2>
+              <svg class="burger-close" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17.2868 13.998L27.3105 3.99625C27.7494 3.55724 27.996 2.96181 27.996 2.34095C27.996 1.72009 27.7494 1.12466 27.3105 0.685649C26.8715 0.246635 26.2762 0 25.6554 0C25.0346 0 24.4393 0.246635 24.0003 0.685649L14 10.7107L3.99966 0.685649C3.56071 0.246635 2.96537 -4.62576e-09 2.3446 0C1.72383 4.62576e-09 1.12848 0.246635 0.68953 0.685649C0.250579 1.12466 0.00397823 1.72009 0.00397822 2.34095C0.00397822 2.96181 0.250579 3.55724 0.68953 3.99625L10.7132 13.998L0.68953 23.9998C0.471041 24.2165 0.297623 24.4744 0.179277 24.7585C0.0609309 25.0426 0 25.3473 0 25.6551C0 25.9628 0.0609309 26.2676 0.179277 26.5517C0.297623 26.8358 0.471041 27.0936 0.68953 27.3104C0.906234 27.5289 1.16405 27.7023 1.44812 27.8207C1.73218 27.9391 2.03687 28 2.3446 28C2.65233 28 2.95701 27.9391 3.24108 27.8207C3.52514 27.7023 3.78296 27.5289 3.99966 27.3104L14 17.2853L24.0003 27.3104C24.217 27.5289 24.4749 27.7023 24.7589 27.8207C25.043 27.9391 25.3477 28 25.6554 28C25.9631 28 26.2678 27.9391 26.5519 27.8207C26.8359 27.7023 27.0938 27.5289 27.3105 27.3104C27.529 27.0936 27.7024 26.8358 27.8207 26.5517C27.9391 26.2676 28 25.9628 28 25.6551C28 25.3473 27.9391 25.0426 27.8207 24.7585C27.7024 24.4744 27.529 24.2165 27.3105 23.9998L17.2868 13.998Z"
+                  fill="white" />
+              </svg>
+            </div>
+
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    Главная
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    О проекте
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    Тренировка
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    Команда
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    Цены
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    Заказать
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">
+                    Отзывы
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="contact">
+              <div class="contact__phone">
+                Контакты:
+                <a href="#">
+                  +380 97 569 5511
+                </a>
+              </div>
+              <ul class="social">
+                <li class="social__item">
+                  <a href="#" class="social__link">
+
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link">
+
+                  </a>
+                </li>
+              </ul>
+              <div class="main-button__wrapper">
+                <button class="main-button">
+                  Оставить заявку
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero" style="background-image: url(images/header-bg.jpg);">
+      <div class="container">
+        <div class="hero__body">
+          <span class="hero__title">
+            Insight
+          </span>
+          <div class="hero__inner">
+            <div class="countdown">
+              <p>
+                До старта курса осталось:
+              </p>
+
+              <!-- <div class="countdown__timer">
+                <script src="//megatimer.ru/get/bce3b42b0ab6ea07e9640d5fe99dcdc4.js"></script>
+              </div> -->
+
+              <div class="countdown__button">
+                <button class="main-button">
+                  Записаться
+                </button>
+              </div>
+            </div>
+            <span class="hero__content">
+              <span class="hero__content--decor">
+                Наша миссия
+              </span>
+              — помочь
+              <span class="hero__content--color">
+                Вам обрести тело мечты
+              </span>
+              не выходя из дома
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about">
+      <div class="container">
+        <h2 class="about__title title">
+          О проекте
+        </h2>
+        <div class="about__content">
+          <div class="about__photo">
+            <div class="about__image about__image-1">
+              <img src="images/about-1.jpg" alt="">
+            </div>
+            <div class="about__image about__image-2">
+              <img src="images/about-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="about__text">
+            <p>
+              Проект Insight был основан в 2018 году Татьяной Мельник. С тех пор было запущено уже более 45 потоков
+              курса, 900 довольных девушек, свышке 300 положительных отзывов.
+            </p>
+            <p>
+              За это время была выработана уникальная программа тренировок которая подойдет абсолютному любой девушке.
+            </p>
+            <p>
+              Ради вашой красоты у нас работает 6 кураторов, которые помогут вам достичь тела вашей мечты.
+            </p>
+            <p>
+              Курс длиться в течении 5 недель. Тренировки проходят в формате прямого эфира 3 раза: в понедельный, среду
+              и пятницу.
+            </p>
+            <p>
+              Платформа: Instagramm.
+            </p>
+            <p>
+              Инвентарь: фитнес коврик.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="training" style="background-image: url(images/video-bg.jpg);">
+      <div class="container">
+        <a class="training__link" href="#">
+          <svg width="221" height="221" viewBox="0 0 221 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d)">
+              <path
+                d="M110.438 5C52.2115 5 5 52.2115 5 110.438C5 168.663 52.2115 215.875 110.438 215.875C168.663 215.875 215.875 168.663 215.875 110.438C215.875 52.2115 168.663 5 110.438 5ZM110.438 197.988C62.0963 197.988 22.8867 158.779 22.8867 110.438C22.8867 62.0963 62.0963 22.8867 110.438 22.8867C158.779 22.8867 197.988 62.0963 197.988 110.438C197.988 158.779 158.779 197.988 110.438 197.988Z"
+                fill="#F5DC28" />
+              <path
+                d="M159.249 107.402L89.5619 56.8009C89.0029 56.3912 88.3412 56.1448 87.6505 56.089C86.9597 56.0333 86.2671 56.1705 85.6497 56.4852C85.0323 56.8 84.5145 57.2801 84.1539 57.8719C83.7933 58.4637 83.6041 59.144 83.6075 59.837V161.038C83.6075 164.121 87.0907 165.863 89.5619 164.074L159.249 113.474C159.731 113.127 160.122 112.671 160.393 112.143C160.663 111.615 160.804 111.031 160.804 110.438C160.804 109.845 160.663 109.26 160.393 108.732C160.122 108.204 159.731 107.748 159.249 107.402ZM98.6229 138.939V81.9365L137.856 110.438L98.6229 138.939Z"
+                fill="#F5DC28" />
+            </g>
+            <defs>
+              <filter id="filter0_d" x="0" y="0" width="220.875" height="220.875" filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                  result="hardAlpha" />
+                <feOffset />
+                <feGaussianBlur stdDeviation="2.5" />
+                <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
+              </filter>
+            </defs>
+          </svg>
+        </a>
+
+        <div class="training__inner">
+          <h2 class="training__title title">
+            Тренировка
+          </h2>
+          <div class="training__content">
+            <div class="training__text">
+              <p>
+                Наши тренировки подойдут вам если вы:
+              </p>
+              <p>
+                1. Хотите идеальное тело.
+              </p>
+              <p>
+                2. Готовы уделять минимум 3 часа в неделю.
+              </p>
+              <p>
+                3. У вас есть инстаграмм.
+              </p>
+            </div>
+
+            <div class="training__button">
+              <button class="main-button">
+                Записаться
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+
+    <section class="team">
+      <div class="container">
+        <h2 class="team__title title">
+          Наша команда
+        </h2>
+
+
+        <div class="swiper-container">
+          <div class="team__inner swiper">
+            <ul class="team__list swiper-wrapper">
+              <li class="team__item swiper-slide">
+                <div class="team__wrapper">
+                  <article class="team__article">
+                    <div class="team__photo" style="background-image: url(images/team-1.png);">
+                    </div>
+                    <span class="team__name">
+                      Татьяна Мельник
+                    </span>
+                    <span class="team__prof">
+                      Куратор курса
+                    </span>
+                    <p>
+                      eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id
+                      velit
+                      ut tortor pretium viverra suspendisse potenti nullam m dolor sed viverra ipsum nunc aliquet
+                      bibendum
+                      enimeget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium
+                      fusce
+                      id
+                      velit ut tortor pretium viverra suspendisse potenti nullam m dolor sed viverra ipsum nunc aliquet
+                      bibendum
+                      enim
+                    </p>
+                  </article>
+                </div>
+              </li>
+
+              <li class="team__item swiper-slide">
+                <div class="team__wrapper">
+                  <article class="team__article">
+                    <div class="team__photo" style="background-image: url(images/team-1.png);">
+                    </div>
+                    <span class="team__name">
+                      Ирина Кирпиченко
+                    </span>
+                    <span class="team__prof">
+                      Куратор курса
+                    </span>
+                    <p>
+                      eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id
+                      velit
+                      ut tortor pretium viverra suspendisse potenti nullam m dolor sed viverra ipsum nunc aliquet
+                      bibendum
+                      enimeget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium
+                      fusce
+                      id
+                      velit ut tortor pretium viverra suspendisse potenti nullam m dolor sed viverra ipsum nunc aliquet
+                      bibendum
+                      enim
+                    </p>
+                  </article>
+                </div>
+              </li>
+
+              <li class="team__item swiper-slide">
+                <div class="team__wrapper">
+                  <article class="team__article">
+                    <div class="team__photo" style="background-image: url(images/team-1.png);">
+                    </div>
+                    <span class="team__name">
+                      Ольга Дзябенко
+                    </span>
+                    <span class="team__prof">
+                      Куратор курса
+                    </span>
+                    <p>
+                      eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id
+                      velit
+                      ut tortor pretium viverra suspendisse potenti nullam m dolor sed viverra ipsum nunc aliquet
+                      bibendum
+                      enimeget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium
+                      fusce
+                      id
+                      velit ut tortor pretium viverra suspendisse potenti nullam m dolor sed viverra ipsum nunc aliquet
+                      bibendum
+                      enim
+                    </p>
+                  </article>
+                </div>
+              </li>
+
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section class="price">
+      <div class="container">
+        <h2 class="price__title title">
+          Тарифы
+        </h2>
+
+        <ul class="price__list">
+          <li class="price__item">
+            <h3 class="price__subtitle">
+              Самостоятельный
+            </h3>
+
+            <ul class="price__list-second">
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+            </ul>
+            <div class="price__button-wrapper">
+              <button class="price__button main-button">
+                Заказать
+              </button>
+            </div>
+          </li>
+
+          <li class="price__item">
+            <h3 class="price__subtitle">
+              С куратором
+            </h3>
+
+            <ul class="price__list-second">
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+            </ul>
+            <div class="price__button-wrapper">
+              <button class="price__button main-button">
+                Заказать
+              </button>
+            </div>
+          </li>
+
+          <li class="price__item">
+            <h3 class="price__subtitle">
+              Премиум
+            </h3>
+
+            <ul class="price__list-second">
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+              <li class="price__item-second">
+                faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra
+              </li>
+            </ul>
+            <div class="price__button-wrapper">
+              <button class="price__button main-button">
+                Заказать
+              </button>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="consultation" style="background-image: url(images/consultation-bg.jpg);">
+      <div class="container">
+        <h2 class="consultation__title title">
+          Заказать консультацию
+        </h2>
+        <form class="consultation__form">
+          <input class="consultation__input" type="text" placeholder="Имя">
+          <input class="consultation__input" type="phone" placeholder="Номер телефона">
+          <input class="consultation__input" type="text" placeholder="Инстаграм">
+          <button class="main-button">
+            Записаться
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title title">
+          Отзывы
+        </h2>
+
+        <div class="reviews__container swiper-container">
+          <div class="reviews__inner swiper">
+            <ul class="reviews__list swiper-wrapper">
+              <li class="reviews__item swiper-slide">
+                <div class="reviews__body">
+                  <article class="reviews__article">
+                    <div class="reviews__wrapper">
+                      <div class="reviews__photo" style="background-image: url(images/reviews-1.jpg);">
+                      </div>
+                      <div class="reviews__content">
+                        <h3 class="reviews__name">
+                          Вероника Степанова
+                        </h3>
+                        <span class="reviews__data">
+                          Окончила курс: 06.07.2021
+                        </span>
+
+                        <div class="reviews__text">
+                          <p>
+                            eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium
+                            fusce id
+                            velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus
+                            ornare
+                            suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum
+                            rhoncus
+                            est
+                            pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue
+                            eget
+                            arcu
+                            dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat
+                            sed
+                            lectus
+                            vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget
+                            egestas
+                            purus
+                            viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu
+                          </p>
+                        </div>
+
+                        <div class="reviews__social">
+                          <a class="reviews__link" href="#">
+                            Ссылка на полный отзыв
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M12.471 6.06006C10.7711 6.06006 9.14082 6.73533 7.93883 7.93733C6.73683 9.13933 6.06155 10.7696 6.06155 12.4695C6.06155 14.1693 6.73683 15.7996 7.93883 17.0016C9.14082 18.2036 10.7711 18.8789 12.471 18.8789C14.1708 18.8789 15.8011 18.2036 17.0031 17.0016C18.2051 15.7996 18.8804 14.1693 18.8804 12.4695C18.8804 10.7696 18.2051 9.13933 17.0031 7.93733C15.8011 6.73533 14.1708 6.06006 12.471 6.06006ZM12.471 16.632C11.3666 16.632 10.3075 16.1933 9.52664 15.4124C8.74576 14.6315 8.30706 13.5724 8.30706 12.4681C8.30706 11.3637 8.74576 10.3046 9.52664 9.52376C10.3075 8.74288 11.3666 8.30418 12.471 8.30418C13.5753 8.30418 14.6344 8.74288 15.4153 9.52376C16.1962 10.3046 16.6349 11.3637 16.6349 12.4681C16.6349 13.5724 16.1962 14.6315 15.4153 15.4124C14.6344 16.1933 13.5753 16.632 12.471 16.632Z"
+                                fill="black" />
+                              <path
+                                d="M19.1341 7.31855C19.9593 7.31855 20.6283 6.64955 20.6283 5.82431C20.6283 4.99907 19.9593 4.33008 19.1341 4.33008C18.3088 4.33008 17.6398 4.99907 17.6398 5.82431C17.6398 6.64955 18.3088 7.31855 19.1341 7.31855Z"
+                                fill="black" />
+                              <path
+                                d="M24.3 4.30528C23.9791 3.47663 23.4888 2.72411 22.8603 2.09589C22.2318 1.46767 21.4791 0.977588 20.6504 0.657019C19.6806 0.292965 18.656 0.0961149 17.6203 0.0748502C16.2855 0.0166333 15.8627 0 12.4778 0C9.09293 0 8.65907 -1.3942e-07 7.33533 0.0748502C6.30044 0.0950276 5.27661 0.291918 4.30805 0.657019C3.47906 0.977214 2.72617 1.46716 2.09766 2.09543C1.46915 2.7237 0.978915 3.47641 0.658405 4.30528C0.294279 5.27502 0.09788 6.29967 0.0776225 7.33533C0.0180195 8.66877 0 9.09154 0 12.4778C0 15.8627 -1.03274e-08 16.2938 0.0776225 17.6203C0.0984143 18.6571 0.293857 19.6801 0.658405 20.6518C0.979815 21.4803 1.47053 22.2327 2.09918 22.8609C2.72784 23.4891 3.48063 23.9792 4.30944 24.3C5.27616 24.6787 6.30042 24.8896 7.3381 24.9238C8.67293 24.982 9.0957 25 12.4806 25C15.8655 25 16.2993 25 17.6231 24.9238C18.6587 24.9027 19.6832 24.7063 20.6531 24.343C21.4817 24.0217 22.2342 23.5312 22.8626 22.9028C23.491 22.2744 23.9815 21.5219 24.3028 20.6933C24.6673 19.7231 24.8628 18.7001 24.8836 17.6633C24.9432 16.3298 24.9612 15.9071 24.9612 12.5208C24.9612 9.13451 24.9612 8.70481 24.8836 7.3783C24.8674 6.328 24.67 5.28838 24.3 4.30528ZM22.6117 17.5177C22.6028 18.3166 22.457 19.1079 22.1806 19.8575C21.9725 20.3965 21.6538 20.886 21.2451 21.2945C20.8364 21.7029 20.3467 22.0213 19.8076 22.2292C19.0663 22.5042 18.2834 22.65 17.4928 22.6602C16.176 22.7212 15.8045 22.7365 12.4279 22.7365C9.04857 22.7365 8.70343 22.7365 7.36167 22.6602C6.57148 22.6506 5.78887 22.5047 5.04824 22.2292C4.50722 22.0226 4.01558 21.7048 3.60514 21.2962C3.19469 20.8877 2.87458 20.3976 2.6655 19.8575C2.39306 19.116 2.24733 18.3339 2.23442 17.5441C2.17482 16.2273 2.16096 15.8558 2.16096 12.4792C2.16096 9.10124 2.16096 8.7561 2.23442 7.41295C2.24338 6.61458 2.38919 5.82366 2.6655 5.07457C3.08827 3.98093 3.95459 3.12015 5.04824 2.70154C5.78924 2.42728 6.57161 2.2815 7.36167 2.27046C8.67986 2.21086 9.04996 2.19422 12.4279 2.19422C15.8059 2.19422 16.1524 2.19422 17.4928 2.27046C18.2834 2.27997 19.0665 2.4258 19.8076 2.70154C20.3467 2.90984 20.8363 3.22855 21.245 3.63721C21.6536 4.04588 21.9723 4.53547 22.1806 5.07457C22.4531 5.81608 22.5988 6.59814 22.6117 7.388C22.6713 8.7062 22.6866 9.07629 22.6866 12.4543C22.6866 15.8308 22.6866 16.194 22.627 17.5191H22.6117V17.5177Z"
+                                fill="black" />
+                            </svg>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </li>
+
+              <li class="reviews__item swiper-slide">
+                <div class="reviews__body">
+                  <article class="reviews__article">
+                    <div class="reviews__wrapper">
+                      <div class="reviews__photo" style="background-image: url(images/reviews-1.jpg);">
+                      </div>
+                      <div class="reviews__content">
+                        <h3 class="reviews__name">
+                          Вероника Степанова
+                        </h3>
+                        <span class="reviews__data">
+                          Окончила курс: 06.07.2021
+                        </span>
+
+                        <div class="reviews__text">
+                          <p>
+                            eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium
+                            fusce id
+                            velit ut tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus
+                            ornare
+                            suspendisse sed nisi lacus sed viverra tellus in hac habitasse platea dictumst vestibulum
+                            rhoncus
+                            est
+                            pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue
+                            eget
+                            arcu
+                            dictum varius duis at consectetur lorem donec massa sapien faucibus et molestie ac feugiat
+                            sed
+                            lectus
+                            vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget
+                            egestas
+                            purus
+                            viverra accumsan in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu
+                          </p>
+                        </div>
+
+                        <div class="reviews__social">
+                          <a class="reviews__link" href="#">
+                            Ссылка на полный отзыв
+                            <svg>
+                              <use xlink:href="images/sprite.svg#instagram"></use>
+                            </svg>
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </li>
+
+
+
+
+            </ul>
+            <div class="swiper-pagination reviews__pagination"></div>
+            <div class="reviews__button-wrapper">
+              <div class="reviews__button-prev swiper-button-prev button-slider">
+                <svg>
+                  <use xlink:href="images/sprite.svg#slider-prev"></use>
+                </svg>
+              </div>
+              <div class="reviews__button-next swiper-button-next button-slider">
+                <svg>
+                  <use xlink:href="images/sprite.svg#slider-next"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>
+      © 2021. Insight. All Rights Reserved.
+    </p>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Swiss';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/Swiss.woff2') format('woff2'),
+       url('../fonts/Swiss.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akzentica4F';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/Akzentica4FLight-Italic.woff2') format('woff2'),
+       url('../fonts/Akzentica4FLight-Italic.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akzentica4F';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Akzentica4F.woff2') format('woff2'),
+       url('../fonts/Akzentica4F.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akzentica4F';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/Akzentica4FMedium.woff2') format('woff2'),
+       url('../fonts/Akzentica4FMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akzentica4F';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Akzentica4FSemiBold.woff2') format('woff2'),
+       url('../fonts/Akzentica4FSemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Akzentica4F';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/Akzentica4F-BoldItalic.woff2') format('woff2'),
+       url('../fonts/Akzentica4F-BoldItalic.woff') format('woff');
+  font-display: swap;
+}
